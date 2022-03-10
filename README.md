@@ -1,3 +1,6 @@
+** <font size="1"> Hi there future self!</font> 
+**
+
 This project contains 50+ HTML, CSS, JS projects for self-improvement and actual practice.
 
 List of Projects (as of the moment):
