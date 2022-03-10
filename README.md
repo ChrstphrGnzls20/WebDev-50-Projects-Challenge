@@ -1,4 +1,4 @@
-<font size="5"> Hi there future self!</font> 
+Hi there future self!
 
 
 This project contains 50+ HTML, CSS, JS projects for self-improvement and actual practice.
