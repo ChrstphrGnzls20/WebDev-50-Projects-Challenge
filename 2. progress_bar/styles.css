@@ -3,8 +3,8 @@
 }
 
 :root {
-  --active-circle-border: #00bf60;
-  --inactive-circle-border: #e0e0e0;
+  --active-color: #00bf60;
+  --inactive-color: #e0e0e0;
 }
 
 body {
@@ -38,7 +38,7 @@ body {
   top: 50%;
   height: 5px;
   width: 100%;
-  background-color: var(--inactive-circle-border);
+  background-color: var(--inactive-color);
 
   z-index: -1;
 }
@@ -49,7 +49,7 @@ body {
   left: 0;
   height: 5px;
   width: 0%;
-  background-color: var(--active-circle-border);
+  background-color: var(--active-color);
 
   z-index: -1;
 
@@ -58,7 +58,7 @@ body {
 
 .circle {
   padding: 0.4rem 0.8rem;
-  border: 4px solid var(--inactive-circle-border);
+  border: 4px solid var(--inactive-color);
   border-radius: 100%;
   text-align: center;
 
@@ -70,7 +70,7 @@ body {
 }
 
 .circle.active {
-  border-color: var(--active-circle-border);
+  border-color: var(--active-color);
 }
 
 .btn-container {
@@ -83,7 +83,7 @@ body {
 button {
   font-size: 1.3rem;
   padding: 0.6em 1.7em;
-  background-color: var(--active-circle-border);
+  background-color: var(--active-color);
   border: none;
   border-radius: 6px;
   outline: none;
@@ -92,5 +92,5 @@ button {
 }
 
 button:disabled {
-  background-color: var(--inactive-circle-border);
+  background-color: var(--inactive-color);
 }
