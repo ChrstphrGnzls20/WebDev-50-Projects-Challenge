@@ -1,3 +1,6 @@
+Hi there future self!
+
+
 This project contains 50+ HTML, CSS, JS projects for self-improvement and actual practice.
 
 List of Projects (as of the moment):
